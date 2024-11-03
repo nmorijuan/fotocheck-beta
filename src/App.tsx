@@ -45,7 +45,7 @@ function App() {
       case "Perufresh":
         setDireccion("Zona de Huaca Bandera S/N (parte baja)");
         setRegion("Pacora, Lambayeque, Lambayeque");
-        setLogo(`${process.env.PUBLIC_URL}/logo-pf.png`);; // Cambia al logo correspondiente
+        setLogo('./logo-pf.png'); // Cambia al logo correspondiente
         break;
       default:
         setDireccion("");
