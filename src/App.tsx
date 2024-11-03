@@ -30,17 +30,17 @@ function App() {
       case "FDO Jayanca":
         setDireccion("Fundo Jayanca V. Fundo U.C 11420 la Viña");
         setRegion("Jayanca, Lambayeque, Lambayeque");
-        setLogo(`${process.env.PUBLIC_URL}/logo-beta.png`);
+        setLogo('./logo-beta.png');;
         break;
       case "Olmos I":
         setDireccion("Rios Cascajal y Olmos lt.C7 (Ramal sur PEOT)");
         setRegion("Olmos, Lambayeque, Lambayeque");
-        setLogo(`${process.env.PUBLIC_URL}/logo-beta.png`);; // Cambia al logo correspondiente
+        setLogo('./logo-beta.png'); // Cambia al logo correspondiente
         break;
       case "Olmos II":
         setDireccion("Dirección de Olmos II");
         setRegion("Región de Olmos II");
-        setLogo(`${process.env.PUBLIC_URL}/logo-beta.png`);; // Cambia al logo correspondiente
+        setLogo('./logo-beta.png'); // Cambia al logo correspondiente
         break;
       case "Perufresh":
         setDireccion("Zona de Huaca Bandera S/N (parte baja)");
