@@ -1,0 +1,83 @@
+.contenedor-seleccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 150px auto;
+  background-color: #f7f7f7; /* Fondo suave */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.titulo-principal {
+  font-size: 1.7rem;
+  color: black;
+  text-align: center;
+}
+
+.titulo-secundario {
+  font-size: 1rem;
+  color: #6C5392; /* Color de texto oscuro */
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.sede-selector {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.sede-selector label {
+  font-size: 1rem;
+  color: #555; /* Color de texto neutro */
+  margin-bottom: 10px;
+}
+
+.sede-selector select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  font-size: 0.8rem;
+  color: #333;
+  outline: none;
+  transition: border-color 2s ease;
+}
+
+.sede-selector select:hover {
+  border-color: #999; /* Cambio de color al pasar el mouse */
+}
+
+.sede-selector select:focus {
+  border-color: #5f758e; /* Color azul suave en foco */
+  box-shadow: 0 0 3px #5f758e(74, 144, 226, 0.3);
+
+}
+
+/* Estilo del input de archivo */
+input[type="file"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #6C5392;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #6C5392; /* Fondo del botón */
+  color: #B1CE4C;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
