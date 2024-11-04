@@ -38,8 +38,8 @@ function App() {
         setLogo("./logo-beta.png"); // Cambia al logo correspondiente
         break;
       case "Olmos II":
-        setDireccion("Dirección de Olmos II");
-        setRegion("Región de Olmos II");
+        setDireccion("Lote C-1 (Ramal Sur PEOT)");
+        setRegion("Olmos, Lambayeque, Lambayeque");
         setLogo("./logo-beta.png"); // Cambia al logo correspondiente
         break;
       case "Perufresh":
