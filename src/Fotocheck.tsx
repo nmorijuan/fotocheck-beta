@@ -12,6 +12,8 @@ interface FotocheckProps {
   direccion: string;
   region: string;
   logo: string;
+  empresa: string,
+  ruc: string
 }
 
 // Componente Cena que recibe las propiedades definidas
@@ -25,6 +27,8 @@ function Fotocheck({
   direccion,
   region,
   logo,
+  empresa,
+  ruc,
 }: FotocheckProps) {
   // const sede = "FDO. JAYANCA";
   // const direccion = "Fundo Jayanca V. Fundo U.C 11420 la Viña";
@@ -33,6 +37,7 @@ function Fotocheck({
   // const sede = "FDO. OLMOS I";
   // const direccion = "Rios Cascajal y Olmos lt.C7 (Ramal sur PEOT)";
   // const region = "Olmos, Lambayeque, Lambayeque";
+  //20297939131 BETA
   return (
     <>
       <div className="fotocheck">
@@ -40,8 +45,8 @@ function Fotocheck({
         <div className="cabecera">
           <img className="logo" src={logo} />
           <div className="titulo">
-            <p className="titulo-empresa">COMPLEJO AGROINDUSTRIAL BETA S.A</p>
-            <span className="ruc">RUC: 20297939131</span>
+            <p className="titulo-empresa">{empresa}</p>
+            <span className="ruc">RUC: {ruc}</span>
           </div>
         </div>
         {/*FIN CABECERA*/}
