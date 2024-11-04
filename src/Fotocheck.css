@@ -5,6 +5,7 @@
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         max-width: 83%;
+        font-family: 'Roboto', sans-serif
 }
 .fotocheck{
     border:1px solid black;
