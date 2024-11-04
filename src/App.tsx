@@ -20,7 +20,7 @@ function App() {
     "Fundo Jayanca V. Fundo U.C 11420 la Viña"
   );
   const [region, setRegion] = useState("Jayanca, Lambayeque, Lambayeque");
-  const [logo, setLogo] = useState("./public/logo-beta.png");
+  const [logo, setLogo] = useState("./logo-beta.png");
 
   const handleSedeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedSede = event.target.value;
@@ -30,22 +30,22 @@ function App() {
       case "FDO Jayanca":
         setDireccion("Fundo Jayanca V. Fundo U.C 11420 la Viña");
         setRegion("Jayanca, Lambayeque, Lambayeque");
-        setLogo('./logo-beta.png');;
+        setLogo("./logo-beta.png");
         break;
       case "Olmos I":
         setDireccion("Rios Cascajal y Olmos lt.C7 (Ramal sur PEOT)");
         setRegion("Olmos, Lambayeque, Lambayeque");
-        setLogo('./logo-beta.png'); // Cambia al logo correspondiente
+        setLogo("./logo-beta.png"); // Cambia al logo correspondiente
         break;
       case "Olmos II":
         setDireccion("Dirección de Olmos II");
         setRegion("Región de Olmos II");
-        setLogo('./logo-beta.png'); // Cambia al logo correspondiente
+        setLogo("./logo-beta.png"); // Cambia al logo correspondiente
         break;
       case "Perufresh":
         setDireccion("Zona de Huaca Bandera S/N (parte baja)");
         setRegion("Pacora, Lambayeque, Lambayeque");
-        setLogo('./logo-pf.png'); // Cambia al logo correspondiente
+        setLogo("./logo-pf.png"); // Cambia al logo correspondiente
         break;
       default:
         setDireccion("");
