@@ -85,14 +85,15 @@ input[type="file"]::-webkit-file-upload-button {
 /* Estilo del enlace de descarga */
 .btn-descargar {
   display: inline-block;
-  background-color: #f7f7f7;
-  color: black;
+  background-color: #dadada;
+  color: darkgreen;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease;
   position: relative;
+  font-size: 0.7rem;
 }
 
 /* Estilo del tooltip */
@@ -115,5 +116,5 @@ input[type="file"]::-webkit-file-upload-button {
 
 /* Muestra el tooltip cuando se pasa el mouse */
 .btn-descargar:hover::after {
-  opacity: 0.8;
+  opacity: 1;
 }
