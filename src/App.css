@@ -85,18 +85,14 @@ input[type="file"]::-webkit-file-upload-button {
 /* Estilo del enlace de descarga */
 .btn-descargar {
   display: inline-block;
-  background-color: #007bff;
-  color: #ffffff;
-  padding: 0.75rem 1.5rem;
+  background-color: #f7f7f7;
+  color: black;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease;
   position: relative;
-}
-
-.btn-descargar:hover {
-  background-color: #0056b3;
 }
 
 /* Estilo del tooltip */
@@ -119,5 +115,5 @@ input[type="file"]::-webkit-file-upload-button {
 
 /* Muestra el tooltip cuando se pasa el mouse */
 .btn-descargar:hover::after {
-  opacity: 1;
+  opacity: 0.8;
 }
