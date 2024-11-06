@@ -108,6 +108,10 @@ function App() {
 
         {/* Botón de selección de Excel */}
         <input type="file" className="btn" onChange={leerExcel} />
+        {/* Enlace para descargar el archivo de plantilla */}
+        <a href="./plantilla-fotocheck.xlsx" download="plantilla-fotocheck.xlsx" className="btn-descargar">
+        Descargar plantilla
+      </a>
       </div>
 
       <div className="contenedor">
