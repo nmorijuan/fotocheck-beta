@@ -62,8 +62,8 @@
 
 /* Estilo del input de archivo */
 input[type="file"] {
-  padding: 10px 15px;
-  font-size: 1rem;
+  padding: 8px 10px;
+  font-size: 0.9rem;
   color: #6C5392;
   border: none;
   border-radius: 5px;
@@ -74,10 +74,9 @@ input[type="file"] {
 input[type="file"]::-webkit-file-upload-button {
   background-color: #6C5392; /* Fondo del botón */
   color: #B1CE4C;
-  padding: 8px 15px;
+  padding: 5px 10px;
   border: none;
   border-radius: 5px;
-  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -86,7 +85,7 @@ input[type="file"]::-webkit-file-upload-button {
 .btn-descargar {
   display: inline-block;
   background-color: #dadada;
-  color: darkgreen;
+  color: black;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
@@ -94,6 +93,7 @@ input[type="file"]::-webkit-file-upload-button {
   transition: background-color 0.3s ease;
   position: relative;
   font-size: 0.7rem;
+  margin-top: 30px;
 }
 
 /* Estilo del tooltip */
