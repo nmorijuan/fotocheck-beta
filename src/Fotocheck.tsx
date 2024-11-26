@@ -64,9 +64,7 @@ function Fotocheck({
             <p>
               <span className="negrita">AREA:</span> {area.toUpperCase()}
             </p>
-            <p>
-              <span className="negrita">SEDE:</span> {sede.toUpperCase()}
-            </p>
+
           </div>
           <center>
             <div className="qr-container">
@@ -76,9 +74,11 @@ function Fotocheck({
         </div>
         {/*FOOTER */}
         <div className="footer">
-          <p>{direccion}</p>
           <p>
-            {region} - <span className="grupo">{grupo}</span>
+          <span className="grupo">{grupo}</span>-
+            </p>
+          <p>
+            <span className="negrita">CAMPAÑA - 2024</span>
           </p>
         </div>
       </div>
