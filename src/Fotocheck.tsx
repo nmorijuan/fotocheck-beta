@@ -8,9 +8,9 @@ interface FotocheckProps {
   nombres: string;
   area: string;
   grupo: string;
-  sede: string;
-  direccion: string;
-  region: string;
+  // sede: string;
+  // direccion: string;
+  // region: string;
   logo: string;
   empresa: string,
   ruc: string
@@ -23,9 +23,9 @@ function Fotocheck({
   nombres,
   area,
   grupo,
-  sede,
-  direccion,
-  region,
+  // sede,
+  // direccion,
+  // region,
   logo,
   empresa,
   ruc,

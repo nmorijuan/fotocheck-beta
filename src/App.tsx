@@ -16,10 +16,10 @@ function App() {
   //const [verInput, setverInput] = useState(true);
 
   const [sede, setSede] = useState("FDO Jayanca");
-  const [direccion, setDireccion] = useState(
-    "Fundo Jayanca V. Fundo U.C 11420 la Viña"
-  );
-  const [region, setRegion] = useState("Jayanca, Lambayeque, Lambayeque");
+  // const [direccion, setDireccion] = useState(
+  //   "Fundo Jayanca V. Fundo U.C 11420 la Viña"
+  // );
+  // const [region, setRegion] = useState("Jayanca, Lambayeque, Lambayeque");
   const [logo, setLogo] = useState("./logo-beta.png");
   const [empresa, setEmpresa] = useState("COMPLEJO AGROINDUSTRIAL BETA S.A");
   const [ruc, setRuc] = useState("20297939131");
@@ -30,36 +30,36 @@ function App() {
 
     switch (selectedSede) {
       case "FDO Jayanca":
-        setDireccion("Fundo Jayanca V. Fundo U.C 11420 la Viña");
-        setRegion("Jayanca, Lambayeque, Lambayeque");
+        // setDireccion("Fundo Jayanca V. Fundo U.C 11420 la Viña");
+        // setRegion("Jayanca, Lambayeque, Lambayeque");
         setLogo("./logo-beta.png");
         setEmpresa("COMPLEJO AGROINDUSTRIAL BETA S.A");
         setRuc("20297939131");
         break;
       case "Olmos I":
-        setDireccion("Rios Cascajal y Olmos lt.C7 (Ramal sur PEOT)");
-        setRegion("Olmos, Lambayeque, Lambayeque");
+        // setDireccion("Rios Cascajal y Olmos lt.C7 (Ramal sur PEOT)");
+        // setRegion("Olmos, Lambayeque, Lambayeque");
         setLogo("./logo-beta.png"); // Cambia al logo correspondiente
         setEmpresa("COMPLEJO AGROINDUSTRIAL BETA S.A");
         setRuc("20297939131");
         break;
       case "Olmos II":
-        setDireccion("Lote C-1 (Ramal Sur PEOT)");
-        setRegion("Olmos, Lambayeque, Lambayeque");
+        // setDireccion("Lote C-1 (Ramal Sur PEOT)");
+        // setRegion("Olmos, Lambayeque, Lambayeque");
         setLogo("./logo-beta.png"); // Cambia al logo correspondiente
         setEmpresa("COMPLEJO AGROINDUSTRIAL BETA S.A");
         setRuc("20297939131");
         break;
       case "Perufresh":
-        setDireccion("Zona de Huaca Bandera S/N (parte baja)");
-        setRegion("Pacora, Lambayeque, Lambayeque");
+        // setDireccion("Zona de Huaca Bandera S/N (parte baja)");
+        // setRegion("Pacora, Lambayeque, Lambayeque");
         setLogo("./logo-pf.png"); // Cambia al logo correspondiente
         setEmpresa("PERU FRESH FRUITS & VEGETABLES SAC");
         setRuc("20534963778");
         break;
       default:
-        setDireccion("");
-        setRegion("");
+        // setDireccion("");
+        // setRegion("");
         setLogo("");
     }
   };
@@ -125,9 +125,9 @@ function App() {
               nombres={dato.NOMBRES}
               area={dato.AREA}
               grupo={dato.GRUPO}
-              sede={sede}
-              direccion={direccion}
-              region={region}
+              // sede={sede}
+              // direccion={direccion}
+              // region={region}
               logo={logo}
               empresa={empresa}
               ruc={ruc}
