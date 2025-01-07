@@ -78,7 +78,7 @@ function Fotocheck({
           <span className="grupo">{grupo}</span>-
             </p>
           <p>
-            <span className="negrita">CAMPAÑA - 2024</span>
+            <span className="negrita">CAMPAÑA - 2025</span>
           </p>
         </div>
       </div>
